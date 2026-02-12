@@ -20,7 +20,7 @@
     art: "😿",
   },
   {
-    title: "I knew it! You love me a lot 😘",
+    title: "I knew it! You love me a lot 😘 ekta jaan",
     subtitle: "",
     art: "💖",
     final: true,
