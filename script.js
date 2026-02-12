@@ -20,7 +20,7 @@
     art: "https://media1.tenor.com/m/tgqZdD673OIAAAAd/teddy-bear.gif",
   },
   {
-    title: "I knew it! You love me a lot 😘 ekta jaan",
+    title: "I knew it! You love me a lot 😘",
     subtitle: "",
     art: "https://media1.tenor.com/m/J1Fc9yvhCHIAAAAd/teddy-bear.gif",
     final: true,
