@@ -38,7 +38,14 @@ body {
   box-shadow: 0 12px 24px var(--shadow);
   display: grid;
   place-items: center;
-  font-size: 64px;
+  overflow: hidden;
+}
+
+.art img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 h1 {

@@ -2,27 +2,27 @@
   {
     title: "Do you love me? 🥺",
     subtitle: "rvm is all yours",
-    art: "🐱",
+    art: "https://media1.tenor.com/m/gVE-ahB5mSsAAAAd/teddy-bear.gif",
   },
   {
     title: "Please think again! 🙄",
     subtitle: "itni jaldi na matt bolo🥺",
-    art: "🐼",
+    art: "https://media1.tenor.com/m/DWd17R4xaSQAAAAd/teddy-bear.gif",
   },
   {
     title: "Ek aur baar soch lo! 😣",
     subtitle: "kyu aisa kar rahi ho pls maan jao😢",
-    art: "😭",
+    art: "https://media1.tenor.com/m/kOAwXXnX8HMAAAAd/teddy-bear-cute-teddy-bear.gif",
   },
   {
     title: "beautiful pls maan jao na! Kitna code likh waogi😭",
     subtitle: "bhut glt baat hai yrr😭",
-    art: "😿",
+    art: "https://media1.tenor.com/m/tgqZdD673OIAAAAd/teddy-bear.gif",
   },
   {
     title: "I knew it! You love me a lot 😘 ekta jaan",
     subtitle: "",
-    art: "💖",
+    art: "https://media1.tenor.com/m/J1Fc9yvhCHIAAAAd/teddy-bear.gif",
     final: true,
   },
 ];
@@ -41,7 +41,7 @@ function setScene(idx) {
   const s = scenes[idx];
   titleEl.textContent = s.title;
   subEl.textContent = s.subtitle;
-  artEl.textContent = s.art;
+  artEl.src = s.art;
   if (s.final) {
     noBtn.style.display = "none";
     yesBtn.style.display = "none";
