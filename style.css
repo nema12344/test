@@ -1,0 +1,90 @@
+﻿:root {
+  --bg: #d8a5a7;
+  --card: #d8a5a7;
+  --text: #2d1f1f;
+  --muted: #5c3d3d;
+  --btn: #ffffff;
+  --btn-text: #2d1f1f;
+  --shadow: rgba(0, 0, 0, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+.card {
+  width: min(420px, 92vw);
+  text-align: center;
+  padding: 28px 20px 22px;
+  position: relative;
+}
+
+.art {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 12px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px var(--shadow);
+  display: grid;
+  place-items: center;
+  font-size: 64px;
+}
+
+h1 {
+  margin: 10px 0 6px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  position: relative;
+  height: 60px;
+}
+
+.btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: var(--btn);
+  color: var(--btn-text);
+  font-weight: 600;
+  box-shadow: 0 10px 18px var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 22px var(--shadow);
+}
+
+.btn.no {
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 22px; }
+  .art { width: 140px; height: 140px; font-size: 56px; }
+}
